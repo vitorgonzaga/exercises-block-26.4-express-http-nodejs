@@ -4,20 +4,20 @@
 
 Inicie os exercícios criando uma aplicação Node.js com os comandos já aprendidos.
 
-- [ ] 1. Crie uma rota GET /ping;
+- [x] 1. Crie uma rota GET /ping;
 
   1. Sua rota deve retornar o seguinte JSON: { message: 'pong' }
 
  <br>
 
-- [ ] 2. Crie uma rota POST /hello
+- [x] 2. Crie uma rota POST /hello
 
   1. Sua rota deve receber, no body da requisição, o seguinte JSON: { "name": "<nome do usuário>" }
   1. Sua rota deve retornar o seguinte JSON: { "message": "Hello, <nome do usuário>!" }.
 
  <br>
 
-- [ ] 3. Crie uma rota POST /greetings
+- [x] 3. Crie uma rota POST /greetings
 
   1. Sua rota deve receber o seguinte JSON: { "name": "<nome do usuário>", "age": <idade do usuário> }.
 
@@ -27,13 +27,13 @@ Inicie os exercícios criando uma aplicação Node.js com os comandos já aprend
 
 <br>
 
-- [ ] 4. Crie uma rota PUT /users/:name/:age .
+- [x] 4. Crie uma rota PUT /users/:name/:age .
 
   1. Sua rota deve retornar o seguinte JSON: { "message": "Seu nome é <name> e você tem <age> anos de idade" } .
 
 <br>
 
-- [ ] 5. Crie uma API de dados das personagens de Simpsons
+- [x] 5. Crie uma API de dados das personagens de Simpsons
   - Crie um arquivo chamado simpsons.json e popule com os seguintes dados:
 
 ```
@@ -89,18 +89,18 @@ Inicie os exercícios criando uma aplicação Node.js com os comandos já aprend
 
 <br>
 
-- [ ] 6. Crie um endpoint GET /simpsons
+- [x] 6. Crie um endpoint GET /simpsons
   1. O endpoint deve retornar um array com todos os simpsons.
 
 <br>
 
-- [ ] 7. Crie um endpoint GET /simpsons/:id
+- [x] 7. Crie um endpoint GET /simpsons/:id
   1. O endpoint deve retornar o personagem com o id informado na URL da requisição.
   1. Caso não exista nenhum personagem com o id especificado, retorne o JSON { message: 'simpson not found' } com o status 404 - Not Found .
 
 <br>
 
-- [ ] 8. Crie um endpoint POST /simpsons .
+- [x] 8. Crie um endpoint POST /simpsons .
   1. Este endpoint deve cadastrar novos personagens.
   1. O corpo da requisição deve receber o seguinte JSON: { id: <id-da-personagem>, name: '<nome-da-personagem>' } .
   1. Caso já exista uma personagem com o id informado, devolva o JSON { message: 'id already exists' } com o status 409 - Conflict .
